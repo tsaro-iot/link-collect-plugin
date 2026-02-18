@@ -1,5 +1,5 @@
 var DEFAULTS = {
-  urlPatterns: ["*://*.servicechannel.com/*"],
+  urlPatterns: ["https://www.servicechannel.com/sc/wo/Workorders/list*"],
   rowSelector: "div.WoRow",
   trackingNumberSelector: "a.WoRow_link--primary",
   elementSelector: "button.wo-attachments[data-content]",
