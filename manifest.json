@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Link Fetcher",
+  "version": "1.0.0",
+  "description": "Scans page elements for embedded file links and batch-downloads them.",
+  "permissions": ["downloads", "storage", "activeTab", "scripting", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}

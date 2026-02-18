@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="popup">
+  <div class="header">
+    <h1>Link Fetcher</h1>
+    <a class="settings-link" id="openOptions" title="Settings">&#9881;</a>
+  </div>
+
+  <div id="status" class="status"></div>
+
+  <div id="scanArea">
+    <button id="scanBtn" class="btn btn-primary btn-block">Scan Page</button>
+  </div>
+
+  <div id="fileListContainer" class="file-list-container">
+    <div class="file-list-actions">
+      <a id="selectAll">Select All</a>
+      <a id="deselectAll">Deselect All</a>
+    </div>
+    <div class="filter-row">
+      <input type="text" id="excludePattern" placeholder="Exclude pattern (e.g. *Invoice*)" spellcheck="false">
+      <button id="applyFilter" class="btn btn-secondary">Apply</button>
+      <button id="clearFilter" class="btn btn-secondary" style="display:none">Clear</button>
+    </div>
+    <div id="filterStatus" class="filter-status"></div>
+    <div id="fileList" class="file-list"></div>
+    <div class="footer">
+      <span id="selectedCount" class="count">0 files selected</span>
+      <button id="downloadBtn" class="btn btn-primary" disabled>Download Selected</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
