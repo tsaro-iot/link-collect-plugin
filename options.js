@@ -3,7 +3,7 @@ var DEFAULTS = {
   rowSelector: "div.WoRow",
   trackingNumberSelector: "a.WoRow_link--primary",
   elementSelector: "button.wo-attachments[data-content]",
-  fileExtensions: ["pdf", "png", "jpg", "jpeg", "xlsx", "docx", "zip", "csv"]
+  fileExtensions: ["pdf", "png", "jpg", "jpeg"]
 };
 
 function showStatus(msg, type) {

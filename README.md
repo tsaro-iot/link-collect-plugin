@@ -1,4 +1,4 @@
-# link-fetcher-plugin
+# link-collect-plugin
 ## Installation Guide
 
 Welcome to the project! This is a Chrome plugin designed to enhance your browsing experience.

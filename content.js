@@ -1,6 +1,6 @@
 (() => {
-  if (window.__linkFetcherInjected) return;
-  window.__linkFetcherInjected = true;
+  if (window.__linkCollectInjected) return;
+  window.__linkCollectInjected = true;
 
   const DEFAULT_CONFIG = {
     rowSelector: "div.WoRow",

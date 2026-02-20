@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Link Fetcher",
+  "name": "Link Collect",
   "version": "1.0.0",
   "description": "Scans page elements for embedded file links and batch-downloads them.",
   "permissions": ["downloads", "storage", "activeTab", "scripting", "tabs"],
