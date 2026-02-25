@@ -22,7 +22,8 @@
       <a id="deselectAll">Deselect All</a>
     </div>
     <div class="filter-row">
-      <input type="text" id="excludePattern" placeholder="Exclude pattern (e.g. *Invoice*)" spellcheck="false">
+      <label for="excludePattern" class="filter-label">Exclude pattern</label>
+      <input type="text" id="excludePattern" value="*Invoice*" placeholder="e.g. *Invoice*" spellcheck="false">
       <button id="applyFilter" class="btn btn-secondary">Apply</button>
       <button id="clearFilter" class="btn btn-secondary" style="display:none">Clear</button>
     </div>

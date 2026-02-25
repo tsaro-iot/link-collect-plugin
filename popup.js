@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
 
-      document.getElementById("excludePattern").value = "";
+      document.getElementById("excludePattern").value = "*Invoice*";
       document.getElementById("filterStatus").className = "filter-status";
       document.getElementById("clearFilter").style.display = "none";
       discoveredFiles = response.files || [];

@@ -149,9 +149,16 @@ body.popup {
 /* ---- Exclude filter ---- */
 .filter-row {
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
   margin-bottom: 6px;
   align-items: center;
+}
+
+.filter-label {
+  font-size: 11px;
+  color: #6b7280;
+  width: 100%;
 }
 
 .filter-row input[type="text"] {
