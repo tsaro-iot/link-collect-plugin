@@ -1,5 +1,5 @@
 const DEFAULTS = {
-  urlPatterns: ["*://*.servicechannel.com/*"],
+  urlPatterns: ["https://www.servicechannel.com/sc/wo/Workorders/list*"],
   elementSelector: "button[data-content]",
   fileExtensions: ["pdf", "png", "jpg", "jpeg"]
 };

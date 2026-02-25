@@ -2,7 +2,7 @@
 
 const ICON_GRAY = "#9ca3af";
 const ICON_BLUE = "#2563eb";
-const URL_PATTERN_DEFAULTS = { urlPatterns: ["*://*.servicechannel.com/*"] };
+const URL_PATTERN_DEFAULTS = { urlPatterns: ["https://www.servicechannel.com/sc/wo/Workorders/list*"] };
 
 // --- URL matching (duplicated from popup.js — service worker can't import it) ---
 
