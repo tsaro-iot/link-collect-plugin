@@ -1,7 +1,7 @@
 const DEFAULTS = {
   urlPatterns: ["*://*.servicechannel.com/*"],
   elementSelector: "button[data-content]",
-  fileExtensions: ["pdf", "png", "jpg", "jpeg", "xlsx", "docx", "zip", "csv"]
+  fileExtensions: ["pdf", "png", "jpg", "jpeg"]
 };
 
 const BADGE_CLASSES = {
